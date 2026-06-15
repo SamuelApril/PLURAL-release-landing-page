@@ -541,6 +541,10 @@ h2 {
   .scroll-cue {
     display: none;
   }
+  
+  .section-dots {
+    display: none;
+  }
 }
 
 @media (max-height: 760px) and (min-width: 901px) {
