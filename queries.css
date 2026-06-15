@@ -1,0 +1,93 @@
+
+/*----big tablets to 1200px (widths smaller than the 1140px row)----*/
+@media only screen and (max-width:120vh) {
+	
+	.card {
+	width:  120vh; 
+	}
+	
+	.footer {
+		font-size: 12px;
+	}
+}
+
+/*----small tablets to big tablets: from 768 to 1023px----*/
+@media only screen and (max-width:1023px) {
+	
+	.card {
+		width: 100vh;
+	}
+	.footer {
+		margin-top: 38px;
+		font-size: 12px;
+	}
+}
+
+/*----small phones to tablets: from 481 to 767px----*/
+@media only screen and (max-width:767px) {
+	
+	.card {
+		width: 70vh;
+	}
+	
+	.card h1 {
+	font-size: 18px;
+	}
+	
+	.description {
+	font-size: 17px;
+	}
+	
+	.social-btn {
+		width: 240px;
+	}
+	
+	.social-img{
+		width: 40px;
+		height: 40px; 
+	}
+	
+	.social-text {
+		font-size: 18px;
+	}
+	
+	.footer {
+		margin-top: 35px;
+		font-size: 10px;
+	}
+}
+
+/*----small phones: from 0 to 480px----*/
+
+@media only screen and (max-width:480px) {
+	
+	.card {
+		width: 50vh;
+	}
+	
+	.card h1 {
+	font-size: 15px;
+	}
+	
+	.description {
+	font-size: 14px;
+	}
+	
+	.social-btn {
+		width: 200px;
+	}
+	
+	.social-img{
+		width: 30px;
+		height: 30px; 
+	}
+	
+	.social-text {
+		font-size: 15px;
+	}
+		
+	.footer {
+		margin-top: 40px;
+		font-size: 8px;
+	}
+}
